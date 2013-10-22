@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="RTSP Stream Information"
+   android:title="Network Stream" >
+  <EditTextPreference
+     android:key="URL"
+     android:defaultValue="@string/defaultServer"
+     android:summary="Enter the URL to open a network stream"
+     android:title="URL" />
+ </PreferenceCategory>
+
+</PreferenceScreen>
